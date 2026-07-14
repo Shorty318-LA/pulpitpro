@@ -30,6 +30,28 @@ export default function SermonStudioPage() {
               placeholder="Example: Matthew 8:5-13"
             />
           </div>
+
+          <div>
+            <label className="mb-2 block font-medium">
+              Theme
+            </label>
+
+            <input
+              className="w-full rounded-lg border border-slate-700 bg-slate-800 p-3"
+              placeholder="Enter sermon theme"
+            />
+          </div>
+
+          <div>
+            <label className="mb-2 block font-medium">
+              Big Idea
+            </label>
+
+            <textarea
+              className="h-32 w-full rounded-lg border border-slate-700 bg-slate-800 p-3"
+              placeholder="What is the one truth you want people to remember?"
+            />
+          </div>
         </div>
       </div>
     </main>
